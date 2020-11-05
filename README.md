@@ -1,2 +1,5 @@
-# building-spidermonkey-with-docker
-Building SpiderMonkey with Docker
+# Building SpiderMonkey with Docker
+
+```sh
+docker run -it --rm ghcr.io/inkohx/spidermonkey
+```
