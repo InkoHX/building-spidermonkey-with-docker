@@ -39,7 +39,7 @@ RUN cd gecko-dev/js/src \
   && autoconf2.13 \
   && mkdir build_OPT.OBJ \
   && cd build_OPT.OBJ \
-  && ../configure \
+  && ../configure --enable-smoosh --disable-debug --enable-optimize --enable-release --disable-tests \
   && make
 
 FROM debian:10-slim
